@@ -134,7 +134,7 @@ openshift.withProject( "${DEV_PROJECT}" ) {
                 // TODO: Create a new app in staging and expose the service
 		sh '''
 			oc project ${STAGE_PROJECT}
-			oc new-app --as-deploymen-config --name ${APP_NAME} -u ${APP_NAME}:stage
+			oc new-app --as-deployment-config --name ${APP_NAME} -u ${APP_NAME}:stage
 			oc expose svc/${APP_NAME}
 		'''
             }
