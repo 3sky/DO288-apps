@@ -12,7 +12,7 @@ pipeline {
 
     environment {
         //TODO: Customize these variables for your environment
-        DEV_PROJECT = "artutb2b-movies-dev"
+        DEV_PROJECT = "arturb2b-movies-dev"
         STAGE_PROJECT = "arturb2b-movies-stage"
         APP_GIT_URL = "https://github.com/3sky/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.eu45.prod.nextcle.com/repository/java"
